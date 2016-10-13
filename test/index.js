@@ -3,12 +3,14 @@
  */
 
 const test = require('tape')
-const gitbook-plugin-9dots-style = require('..')
+
+require('..')
 
 /**
  * Tests
  */
 
 test('should work', (t) => {
-
+  t.ok(true)
+  t.end()
 })
