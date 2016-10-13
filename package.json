@@ -1,0 +1,15 @@
+{
+  "name": "gitbook-plugin-9dots-style",
+  "description": "Gitbook 9 dots style.",
+  "repository": "git://github.com/9dots/gitbook-plugin-9dots-style.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
