@@ -11,5 +11,8 @@
   "dependencies": {},
   "devDependencies": {
     "tape": "^4.2.2"
+  },
+  "engines": {
+    "gitbook": "*"
   }
 }
