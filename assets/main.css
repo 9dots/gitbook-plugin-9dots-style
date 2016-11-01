@@ -306,3 +306,82 @@ hr:nth-child(4n) {
 .markdown-section pre>code {
   white-space: pre-wrap !important;
 }
+.page-inner {
+  max-width: none;
+  padding: 20px 0;
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v18/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+}
+
+.markdown-section h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-section h6 {
+  margin-top: 0;
+}
+
+.markdown-section h2 {
+  margin: .85em 0;
+}
+
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.note p, .note li {
+  font-size: 14px;
+}
+
+.notable {
+  max-width: 75%;
+}
+
+@media print {
+  .book-body, .body-inner {
+    position: static !important;
+  }
+  .book-summary {
+    display: none !important;
+  }
+  .header {
+    height: 95vh !important;
+  }
+  .book-header {
+    display: none !important;
+  }
+  .navigation {
+    display: none !important;
+  }
+  .notable {
+    max-width: 100% !important;
+    font-size: 0.85em;
+  }
+} 
