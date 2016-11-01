@@ -365,6 +365,9 @@ input[type='checkbox'] {
 }
 
 @media print {
+	script {
+		display: none;
+	}
   .book-body, .body-inner {
     position: static !important;
   }
