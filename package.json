@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-9dots-style",
   "description": "Gitbook 9 dots style.",
   "repository": "git://github.com/9dots/gitbook-plugin-9dots-style.git",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
