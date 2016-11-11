@@ -365,6 +365,8 @@ input[type='checkbox'] {
 }
 
 @media print {
+  * {-webkit-print-color-adjust:exact;}
+  @page {size: landscape};
 	script {
 		display: none;
 	}
